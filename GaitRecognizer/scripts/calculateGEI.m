@@ -1,8 +1,8 @@
 function GEIImage = calculateGEI(sequencesDir, extension)
-    fullSearchPath = strcat(sequencesDir,'\*.',extension);
+    fullSearchPath = strcat(sequencesDir,filesep,'*.',extension);
     srcImages = dir(fullSearchPath);
     for i=1 : length(srcImages)
-        fileName = strcat(srcImages(i).folder,'\',srcImages(i).name);
+        fileName = strcat(srcImages(i).folder,filesep,srcImages(i).name);
         im = imread(fileName);
         im = im2bw(im);
         pers = localizePerson(im);
