@@ -1,0 +1,10 @@
+angle method correct result in %
+   00    PCA      18 90.00
+   00    LDA       4 20.00
+   00 PCA_LDA      17 85.00
+   90    PCA      17 85.00
+   90    LDA       2 10.00
+   90 PCA_LDA      15 75.00
+   45    PCA      20 100.00
+   45    LDA       6 30.00
+   45 PCA_LDA      16 80.00

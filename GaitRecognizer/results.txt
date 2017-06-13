@@ -1,0 +1,978 @@
+angle method correct result in %
+  180    PCA     122 99.19
+  180    LDA      39 31.71
+  180 PCA_LDA     122 99.19
+  162    PCA     120 98.36
+  162    LDA     111 90.98
+  162 PCA_LDA     120 98.36
+  144    PCA     116 95.08
+  144    LDA      24 19.67
+  144 PCA_LDA     119 97.54
+  126    PCA     118 96.72
+  126    LDA      35 28.69
+  126 PCA_LDA     119 97.54
+  108    PCA     120 96.77
+  108    LDA      74 59.68
+  108 PCA_LDA     117 94.35
+  090    PCA     120 96.77
+  090    LDA     111 89.52
+  090 PCA_LDA     118 95.16
+  072    PCA     122 98.39
+  072    LDA      98 79.03
+  072 PCA_LDA     118 95.16
+  054    PCA     120 97.56
+  054    LDA     106 86.18
+  054 PCA_LDA     117 95.12
+  036    PCA     118 95.16
+  036    LDA      51 41.13
+  036 PCA_LDA     117 94.35
+  018    PCA     117 94.35
+  018    LDA     108 87.10
+  018 PCA_LDA     119 95.97
+  000    PCA     119 96.75
+  000    LDA     108 87.80
+  000 PCA_LDA     116 94.31
+
+Reducing dimensions by LDA from1170 to121
+120 /122
+angle:144
+TRAIN:122
+TEST:122
+PCA:
+Reducing dimensions by PCA from1296 to121
+116/122
+LDA:
+Reducing dimensions by LDA from1296 to121
+24/122
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1170
+Reducing dimensions by LDA from1170 to121
+119 /122
+angle:126
+TRAIN:122
+TEST:122
+PCA:
+Reducing dimensions by PCA from1296 to121
+118/122
+LDA:
+Reducing dimensions by LDA from1296 to121
+35/122
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1170
+Reducing dimensions by LDA from1170 to121
+119 /122
+angle:108
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+120/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+74/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+117 /124
+angle:090
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+120/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+111/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+118 /124
+angle:072
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+122/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+98/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+118 /124
+angle:054
+TRAIN:123
+TEST:123
+PCA:
+Reducing dimensions by PCA from1296 to122
+120/123
+LDA:
+Reducing dimensions by LDA from1296 to122
+106/123
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1171
+Reducing dimensions by LDA from1171 to122
+117 /123
+angle:036
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+118/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+51/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+117 /124
+angle:018
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+117/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+108/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+119 /124
+angle:000
+TRAIN:123
+TEST:123
+PCA:
+Reducing dimensions by PCA from1296 to122
+119/123
+LDA:
+Reducing dimensions by LDA from1296 to122
+108/123
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1171
+Reducing dimensions by LDA from1171 to122
+116 /123
+TestingGEI
+angle:180
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imread>get_full_filename', 'C:\Program Files\MATLAB\R2017a\toolbox\matlab\imagesci\imread.p', 516)" style="font-weight:bold">imread>get_full_filename</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017a\toolbox\matlab\imagesci\imread.p',516,0)">line 516</a>)
+File "109\nm-01\109-nm-01-180.png" does not exist.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imread', 'C:\Program Files\MATLAB\R2017a\toolbox\matlab\imagesci\imread.p', 340)" style="font-weight:bold">imread</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017a\toolbox\matlab\imagesci\imread.p',340,0)">line 340</a>)
+    fullname = get_full_filename(filename);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestingGEI', 'C:\Projekty\WKIRO\GaitRecognizer\scripts\TestingGEI.m', 55)" style="font-weight:bold">TestingGEI</a> (<a href="matlab: opentoline('C:\Projekty\WKIRO\GaitRecognizer\scripts\TestingGEI.m',55,0)">line 55</a>)
+            img = imresize(imread(filepath), p);
+} 
+TestingGEI
+angle:180
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imread>get_full_filename', 'C:\Program Files\MATLAB\R2017a\toolbox\matlab\imagesci\imread.p', 516)" style="font-weight:bold">imread>get_full_filename</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017a\toolbox\matlab\imagesci\imread.p',516,0)">line 516</a>)
+File "109\nm-01\109-nm-01-180.png" does not exist.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imread', 'C:\Program Files\MATLAB\R2017a\toolbox\matlab\imagesci\imread.p', 340)" style="font-weight:bold">imread</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2017a\toolbox\matlab\imagesci\imread.p',340,0)">line 340</a>)
+    fullname = get_full_filename(filename);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TestingGEI', 'C:\Projekty\WKIRO\GaitRecognizer\scripts\TestingGEI.m', 55)" style="font-weight:bold">TestingGEI</a> (<a href="matlab: opentoline('C:\Projekty\WKIRO\GaitRecognizer\scripts\TestingGEI.m',55,0)">line 55</a>)
+            img = imresize(imread(filepath), p);
+} 
+opentoline('C:\Projekty\WKIRO\GaitRecognizer\scripts\TestingGEI.m',55,0)
+TestingGEI
+angle:180
+TRAIN:122
+TEST:122
+PCA:
+Reducing dimensions by PCA from1296 to121
+122/122
+LDA:
+Reducing dimensions by LDA from1296 to121
+76/122
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1170
+Reducing dimensions by LDA from1170 to121
+121 /122
+angle:162
+TRAIN:123
+TEST:123
+PCA:
+Reducing dimensions by PCA from1296 to122
+122/123
+LDA:
+Reducing dimensions by LDA from1296 to122
+112/123
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1171
+Reducing dimensions by LDA from1171 to122
+121 /123
+angle:144
+TRAIN:122
+TEST:122
+PCA:
+Reducing dimensions by PCA from1296 to121
+119/122
+LDA:
+Reducing dimensions by LDA from1296 to121
+107/122
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1170
+Reducing dimensions by LDA from1170 to121
+119 /122
+angle:126
+TRAIN:122
+TEST:122
+PCA:
+Reducing dimensions by PCA from1296 to121
+118/122
+LDA:
+Reducing dimensions by LDA from1296 to121
+52/122
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1170
+Reducing dimensions by LDA from1170 to121
+117 /122
+angle:108
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+120/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+25/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+120 /124
+angle:090
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+117/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+78/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+112 /124
+angle:072
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+120/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+40/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+119 /124
+angle:054
+TRAIN:123
+TEST:123
+PCA:
+Reducing dimensions by PCA from1296 to122
+117/123
+LDA:
+Reducing dimensions by LDA from1296 to122
+112/123
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1171
+Reducing dimensions by LDA from1171 to122
+118 /123
+angle:036
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+119/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+109/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+121 /124
+angle:018
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+118/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+99/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+116 /124
+angle:000
+TRAIN:123
+TEST:123
+PCA:
+Reducing dimensions by PCA from1296 to122
+119/123
+LDA:
+Reducing dimensions by LDA from1296 to122
+114/123
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1171
+Reducing dimensions by LDA from1171 to122
+119 /123
+TestingGEI
+angle:180
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+119/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+if system_dependent('IsDebugMode')==1, dbquit; end
+lda
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lda', 'C:\Projekty\WKIRO\GaitRecognizer\scripts\drtoolbox\techniques\lda.m', 29)" style="font-weight:bold">lda</a> (<a href="matlab: opentoline('C:\Projekty\WKIRO\GaitRecognizer\scripts\drtoolbox\techniques\lda.m',29,0)">line 29</a>)
+    mapping.mean = mean(X, 1);
+} 
+TestingGEI
+angle:180
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+119/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+57/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+118 /124
+angle:162
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+120/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+108/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+120 /124
+angle:144
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+119/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+97/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+115 /124
+angle:126
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+117/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+119/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+115 /124
+angle:108
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+118/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+106/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+110 /124
+angle:090
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+116/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+37/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+113 /124
+angle:072
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+117/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+47/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+112 /124
+angle:054
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+117/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+97/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+115 /124
+angle:036
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+117/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+110/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+115 /124
+angle:018
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+119/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+117/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+121 /124
+angle:000
+TRAIN:123
+TEST:123
+PCA:
+Reducing dimensions by PCA from1296 to122
+119/123
+LDA:
+Reducing dimensions by LDA from1296 to122
+115/123
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1171
+Reducing dimensions by LDA from1171 to122
+120 /123
+TestingGEI
+angle:180
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+119/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+119/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+119 /124
+angle:162
+TRAIN:122
+TEST:122
+PCA:
+Reducing dimensions by PCA from1296 to121
+116/122
+LDA:
+Reducing dimensions by LDA from1296 to121
+105/122
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1170
+Reducing dimensions by LDA from1170 to121
+115 /122
+angle:144
+TRAIN:123
+TEST:123
+PCA:
+Reducing dimensions by PCA from1296 to122
+116/123
+LDA:
+Reducing dimensions by LDA from1296 to122
+111/123
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1171
+Reducing dimensions by LDA from1171 to122
+118 /123
+angle:126
+TRAIN:123
+TEST:123
+PCA:
+Reducing dimensions by PCA from1296 to122
+113/123
+LDA:
+Reducing dimensions by LDA from1296 to122
+91/123
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1171
+Reducing dimensions by LDA from1171 to122
+114 /123
+angle:108
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+114/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+104/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+117 /124
+angle:090
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+117/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+109/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+120 /124
+angle:072
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+118/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+113/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+120 /124
+angle:054
+TRAIN:123
+TEST:123
+PCA:
+Reducing dimensions by PCA from1296 to122
+121/123
+LDA:
+Reducing dimensions by LDA from1296 to122
+115/123
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1171
+Reducing dimensions by LDA from1171 to122
+117 /123
+angle:036
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+120/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+47/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+119 /124
+angle:018
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+120/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+111/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+118 /124
+angle:000
+TRAIN:123
+TEST:123
+PCA:
+Reducing dimensions by PCA from1296 to122
+118/123
+LDA:
+Reducing dimensions by LDA from1296 to122
+119/123
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1171
+Reducing dimensions by LDA from1171 to122
+119 /123
+TestingGEI
+angle:180
+TRAIN:123
+TEST:123
+PCA:
+Reducing dimensions by PCA from1296 to122
+107/123
+LDA:
+Reducing dimensions by LDA from1296 to122
+63/123
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1171
+Reducing dimensions by LDA from1171 to122
+109 /123
+angle:162
+TRAIN:122
+TEST:122
+PCA:
+Reducing dimensions by PCA from1296 to121
+105/122
+LDA:
+Reducing dimensions by LDA from1296 to121
+78/122
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1170
+Reducing dimensions by LDA from1170 to121
+105 /122
+angle:144
+TRAIN:123
+TEST:123
+PCA:
+Reducing dimensions by PCA from1296 to122
+103/123
+LDA:
+Reducing dimensions by LDA from1296 to122
+47/123
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1171
+Reducing dimensions by LDA from1171 to122
+105 /123
+angle:126
+TRAIN:123
+TEST:123
+PCA:
+Reducing dimensions by PCA from1296 to122
+103/123
+LDA:
+Reducing dimensions by LDA from1296 to122
+66/123
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1171
+Reducing dimensions by LDA from1171 to122
+102 /123
+angle:108
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+104/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+37/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+103 /124
+angle:090
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+108/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+104/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+109 /124
+angle:072
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+107/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+73/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+105 /124
+angle:054
+TRAIN:122
+TEST:122
+PCA:
+Reducing dimensions by PCA from1296 to121
+104/122
+LDA:
+Reducing dimensions by LDA from1296 to121
+101/122
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1170
+Reducing dimensions by LDA from1170 to121
+102 /122
+angle:036
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+106/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+90/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+108 /124
+angle:018
+TRAIN:124
+TEST:124
+PCA:
+Reducing dimensions by PCA from1296 to123
+107/124
+LDA:
+Reducing dimensions by LDA from1296 to123
+95/124
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1172
+Reducing dimensions by LDA from1172 to123
+102 /124
+angle:000
+TRAIN:123
+TEST:123
+PCA:
+Reducing dimensions by PCA from1296 to122
+109/123
+LDA:
+Reducing dimensions by LDA from1296 to122
+79/123
+PCA+LDA:
+Reducing dimensions by PCA from1296 to1171
+Reducing dimensions by LDA from1171 to122
+109 /123
+Copy_of_TestingGEI
+angle:90
+TRAIN:20
+TEST:20
+PCA:
+Reducing dimensions by PCA from3600 to19
+13/20
+LDA:
+Reducing dimensions by LDA from3600 to19
+2/20
+PCA+LDA:
+Reducing dimensions by PCA from3600 to3580
+Reducing dimensions by LDA from3580 to19
+10 /20
+if system_dependent('IsDebugMode')==1, dbquit; end
+Copy_of_TestingGEI
+angle:90
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros')" style="font-weight:bold">zeros</a>
+Size inputs must be integers.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Copy_of_TestingGEI', 'C:\Projekty\WKIRO\GaitRecognizer\scripts\Copy_of_TestingGEI.m', 43)" style="font-weight:bold">Copy_of_TestingGEI</a> (<a href="matlab: opentoline('C:\Projekty\WKIRO\GaitRecognizer\scripts\Copy_of_TestingGEI.m',43,0)">line 43</a>)
+    trainData = zeros(K-notUsed, d);        % dane treningowe
+} 
+Copy_of_TestingGEI
+angle:90
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('zeros')" style="font-weight:bold">zeros</a>
+Size inputs must be integers.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Copy_of_TestingGEI', 'C:\Projekty\WKIRO\GaitRecognizer\scripts\Copy_of_TestingGEI.m', 43)" style="font-weight:bold">Copy_of_TestingGEI</a> (<a href="matlab: opentoline('C:\Projekty\WKIRO\GaitRecognizer\scripts\Copy_of_TestingGEI.m',43,0)">line 43</a>)
+    trainData = zeros(K-notUsed, d);        % dane treningowe
+} 
+Copy_of_TestingGEI
+angle:90
+TRAIN:20
+TEST:20
+PCA:
+Reducing dimensions by PCA from2025 to19
+13/20
+LDA:
+Reducing dimensions by LDA from2025 to19
+5/20
+PCA+LDA:
+Reducing dimensions by PCA from2025 to2005
+Reducing dimensions by LDA from2005 to19
+10 /20
+Copy_of_TestingGEI
+angle:90
+TRAIN:20
+TEST:20
+PCA:
+Reducing dimensions by PCA from2025 to19
+13/20
+LDA:
+Reducing dimensions by LDA from2025 to19
+5/20
+PCA+LDA:
+Reducing dimensions by PCA from2025 to2005
+Reducing dimensions by LDA from2005 to19
+9 /20
+angle:45
+TRAIN:20
+TEST:20
+PCA:
+Reducing dimensions by PCA from2025 to19
+6/20
+LDA:
+Reducing dimensions by LDA from2025 to19
+0/20
+PCA+LDA:
+Reducing dimensions by PCA from2025 to2005
+Reducing dimensions by LDA from2005 to19
+1 /20
+angle:00
+TRAIN:20
+TEST:20
+PCA:
+Reducing dimensions by PCA from2025 to19
+16/20
+LDA:
+Reducing dimensions by LDA from2025 to19
+3/20
+PCA+LDA:
+Reducing dimensions by PCA from2025 to2005
+Reducing dimensions by LDA from2005 to19
+12 /20
+if system_dependent('IsDebugMode')==1, dbquit; end
+Copy_of_TestingGEI
+angle:90
+TRAIN:20
+TEST:20
+PCA:
+Reducing dimensions by PCA from2025 to19
+17/20
+LDA:
+Reducing dimensions by LDA from2025 to19
+4/20
+PCA+LDA:
+Reducing dimensions by PCA from2025 to2005
+Reducing dimensions by LDA from2005 to19
+16 /20
+angle:45
+TRAIN:20
+TEST:20
+PCA:
+Reducing dimensions by PCA from2025 to19
+20/20
+LDA:
+Reducing dimensions by LDA from2025 to19
+6/20
+PCA+LDA:
+Reducing dimensions by PCA from2025 to2005
+Reducing dimensions by LDA from2005 to19
+18 /20
+angle:00
+TRAIN:20
+TEST:20
+PCA:
+Reducing dimensions by PCA from2025 to19
+18/20
+LDA:
+Reducing dimensions by LDA from2025 to19
+4/20
+PCA+LDA:
+Reducing dimensions by PCA from2025 to2005
+Reducing dimensions by LDA from2005 to19
+18 /20
+Copy_of_TestingGEI
+angle:90
+TRAIN:20
+TEST:20
+PCA:
+Reducing dimensions by PCA from2025 to19
+16/20
+LDA:
+Reducing dimensions by LDA from2025 to19
+3/20
+PCA+LDA:
+Reducing dimensions by PCA from2025 to2005
+Reducing dimensions by LDA from2005 to19
+14 /20
+angle:45
+TRAIN:20
+TEST:20
+PCA:
+Reducing dimensions by PCA from2025 to19
+20/20
+LDA:
+Reducing dimensions by LDA from2025 to19
+5/20
+PCA+LDA:
+Reducing dimensions by PCA from2025 to2005
+Reducing dimensions by LDA from2005 to19
+20 /20
+angle:00
+TRAIN:20
+TEST:20
+PCA:
+Reducing dimensions by PCA from2025 to19
+19/20
+LDA:
+Reducing dimensions by LDA from2025 to19
+9/20
+PCA+LDA:
+Reducing dimensions by PCA from2025 to2005
+Reducing dimensions by LDA from2005 to19
+19 /20
+Copy_of_TestingGEI
+angle:90
+TRAIN:20
+TEST:20
+PCA:
+Reducing dimensions by PCA from2025 to19
+16/20
+LDA:
+Reducing dimensions by LDA from2025 to19
+1/20
+PCA+LDA:
+Reducing dimensions by PCA from2025 to2005
+Reducing dimensions by LDA from2005 to19
+16 /20
+angle:45
+TRAIN:20
+TEST:20
+PCA:
+Reducing dimensions by PCA from2025 to19
+20/20
+LDA:
+Reducing dimensions by LDA from2025 to19
+11/20
+PCA+LDA:
+Reducing dimensions by PCA from2025 to2005
+Reducing dimensions by LDA from2005 to19
+20 /20
+angle:00
+TRAIN:20
+TEST:20
+PCA:
+Reducing dimensions by PCA from2025 to19
+19/20
+LDA:
+Reducing dimensions by LDA from2025 to19
+2/20
+PCA+LDA:
+Reducing dimensions by PCA from2025 to2005
+Reducing dimensions by LDA from2005 to19
+19 /20
+Copy_of_TestingGEI
+angle:90
+TRAIN:20
